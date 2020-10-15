@@ -5,8 +5,13 @@ class.tree.image=tree.png
 <<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
+<<<<<<< HEAD
 editor.fx.0.x=301
 editor.fx.0.y=149
+=======
+editor.fx.0.x=962
+editor.fx.0.y=157
+>>>>>>> 527df0d140a005770c3561b27aed9d7e3ebf1004
 =======
 editor.fx.0.height=0
 editor.fx.0.width=0
@@ -61,5 +66,10 @@ target4.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
+xPosition=885
+yPosition=99
+=======
 xPosition=929
 yPosition=273
+>>>>>>> d204a74eb9f114e8dfd7e0dc27cadb94f2ec16da
