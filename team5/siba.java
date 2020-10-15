@@ -14,6 +14,11 @@ public class siba extends Actor
      */
     public void act() 
     {
+        //public static boolean Greenfoot.isKeyDown( "down" );
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(90);
+        move(1);
+}
         // Add your action code here.
     }    
 }
