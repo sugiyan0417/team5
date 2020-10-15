@@ -1,5 +1,9 @@
 #Greenfoot project file
+<<<<<<< HEAD
 class.tree.image=tree.png
+=======
+class.Hoge.image=teddybear.png
+>>>>>>> e15c2a6963faaa3f1f79a48f3e2132ba13a86792
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -22,7 +26,11 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=50
+<<<<<<< HEAD
 target1.name=tree
+=======
+target1.name=Hoge
+>>>>>>> e15c2a6963faaa3f1f79a48f3e2132ba13a86792
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
@@ -38,5 +46,10 @@ target2.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=1053
 yPosition=291
+=======
+xPosition=867
+yPosition=252
+>>>>>>> e15c2a6963faaa3f1f79a48f3e2132ba13a86792
