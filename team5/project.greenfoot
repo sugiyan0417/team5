@@ -2,10 +2,17 @@
 class.Hoge.image=teddybear.png
 class.siba.image=boat01-f.png
 class.tree.image=tree.png
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=559
 editor.fx.0.y=235
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+>>>>>>> d1cc166df950e7647d9864c8e4221632e81202a2
 height=585
 package.numDependencies=0
 package.numTargets=4
@@ -54,5 +61,10 @@ target4.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=832
 yPosition=400
+=======
+xPosition=313
+yPosition=314
+>>>>>>> d1cc166df950e7647d9864c8e4221632e81202a2
