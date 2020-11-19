@@ -1,4 +1,5 @@
 #Greenfoot project file
+<<<<<<< HEAD
 class.Player.image=woman01_Copy.png
 dependency1.from=MyWorld
 dependency1.to=Player
@@ -10,6 +11,18 @@ editor.fx.0.y=134
 height=988
 package.numDependencies=1
 package.numTargets=3
+=======
+class.Hoge.image=teddybear.png
+class.siba.image=boat01-f.png
+class.tree.image=tree.png
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=585
+package.numDependencies=0
+package.numTargets=4
+>>>>>>> d1cc166df950e7647d9864c8e4221632e81202a2
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -47,5 +60,10 @@ target3.y=0
 version=3.0.0
 width=1225
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=236
 yPosition=185
+=======
+xPosition=313
+yPosition=314
+>>>>>>> d1cc166df950e7647d9864c8e4221632e81202a2
