@@ -12,19 +12,14 @@ public class Hoge extends Actor
      * Act - do whatever the Hoge wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
     public void act() 
     {
-<<<<<<< HEAD
         // Add your action code here.
         if(Greenfoot.isKeyDown("Up")){
             setRotation(-90);
             move(1);
         }
-=======
-        if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(0);
-        move(1);
-}
->>>>>>> d204a74eb9f114e8dfd7e0dc27cadb94f2ec16da
-    }    
+
+    }
 }
