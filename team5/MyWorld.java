@@ -16,6 +16,25 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+<<<<<<< HEAD
+        super(1000, 900, 1); 
+        addObject( new key(), 100, 250 );
+        addObject( new door(), 700, 169 );
+        addObject( new player(), 100, 680 );
+        
+        for(int x=50;x<1000;x+=150){
+        addObject( new block_seaground(), x, 830 );
+    }
+    for(int x=50;x<500;x+=150){
+        addObject( new block_seaground(), x, 400 );
+    }
+    for(int x=500;x<1000;x+=150){
+        addObject( new block_seaground(), x, 700 );
+    }
+    for(int x=700;x<1500;x+=150){
+        addObject( new block_seaground(), x, 300 );
+    }
+=======
         super(1000, 750, 1); 
 <<<<<<< HEAD
 =======
