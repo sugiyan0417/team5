@@ -1,23 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class tree here.
+ * Write a description of class block_cloud here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class tree extends Actor
+public class block_cloud extends Actor
 {
     /**
-     * Act - do whatever the tree wants to do. This method is called whenever
+     * Act - do whatever the block_cloud wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
         // Add your action code here.
-        if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(0);
-        move(1);
-        }
     }    
 }
