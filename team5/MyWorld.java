@@ -35,7 +35,16 @@ public class MyWorld extends World
     for(int x=700;x<1500;x+=150){
         addObject( new block_seaground(), x, 300 );
     }
+<<<<<<< HEAD
 
+=======
+=======
+        super(1000, 750, 1); 
+<<<<<<< HEAD
+=======
+        addObject(new Player(), 500, 650);
+>>>>>>> 47891ec011702e433278709d545130f1c0510faa
+>>>>>>> 5a65a087cd56baab2c4e5d7c880bc925dd27c1c3
     }
     public void act(){
     }
