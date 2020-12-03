@@ -15,6 +15,11 @@ public class Player extends Actor
     boolean[] getKeys = new boolean[128];
     boolean[] getKeysDown = new boolean[128];
     boolean[] getKeysUp = new boolean[128];
+    
+    boolean isADown = false;
+    boolean isDDown = false;
+    boolean isSDown = false;
+    boolean isWDown = false;
     //コンストラクタ
     public Player(){
         getImage().scale(150,150);
@@ -25,11 +30,26 @@ public class Player extends Actor
         keyboard();
     }
     public void keyboard(){
+        int x = getX();
+        int y = getY();
         if(Greenfoot.isKeyDown("a")){
-            move(-4);
+            setLocation(x-4,y);
+            //move(-4);
         }
         if(Greenfoot.isKeyDown("d")){
-            move(4);
+            setLocation(x+4,y);
+            //move(4);
+        }
+        if(Greenfoot.isKeyDown("w")&&!isWDown){
+            isWDown = true;
+            setLocation(x,y-200);
+            //move(4);
+        }
+        String key = Greenfoot.getKey();
+        if(key != null){
+            if(key.equals("w")){
+                isWDown = false;
+            }
         }
         /*if(Greenfoot.isKeyDown("w")){
             getKeys["w"] = true;
