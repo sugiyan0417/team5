@@ -1,22 +1,18 @@
 #Greenfoot project file
-<<<<<<< HEAD
-class.Player.image=player.png
-=======
 class.MyWorld.image=back_sea.png
-class.Player.image=player.png
+class.Player.image=player(hanten).png
 class.block_cloud.image=block_cloud.png
 class.block_seaground.image=block_seaground.png
 class.door.image=door.png
 class.key.image=goal_key.png
-class.player.image=player.png
 dependency1.from=MyWorld
-dependency1.to=key
+dependency1.to=Player
 dependency1.type=UsesDependency
 dependency2.from=MyWorld
-dependency2.to=door
+dependency2.to=key
 dependency2.type=UsesDependency
 dependency3.from=MyWorld
-dependency3.to=Player
+dependency3.to=door
 dependency3.type=UsesDependency
 dependency4.from=MyWorld
 dependency4.to=block_seaground
@@ -28,43 +24,9 @@ editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
-height=1056
+height=935
 package.numDependencies=5
-<<<<<<< HEAD
-package.numTargets=8
-=======
-package.numTargets=6
-=======
-<<<<<<< HEAD
-class.Player.image=woman01_Copy.png
->>>>>>> 7f12a21c9e415cfecbcf97fbb30a583a8cf28e53
-dependency1.from=MyWorld
-dependency1.to=Player
-dependency1.type=UsesDependency
-editor.fx.0.height=738
-editor.fx.0.width=1009
-editor.fx.0.x=586
-editor.fx.0.y=236
-height=935
-package.numDependencies=1
-package.numTargets=3
-<<<<<<< HEAD
-=======
-=======
-class.Hoge.image=teddybear.png
-class.siba.image=boat01-f.png
-class.tree.image=tree.png
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=935
-package.numDependencies=0
-package.numTargets=4
->>>>>>> d1cc166df950e7647d9864c8e4221632e81202a2
->>>>>>> 47891ec011702e433278709d545130f1c0510faa
->>>>>>> 5a65a087cd56baab2c4e5d7c880bc925dd27c1c3
->>>>>>> 7f12a21c9e415cfecbcf97fbb30a583a8cf28e53
+package.numTargets=7
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -124,42 +86,11 @@ target7.height=50
 target7.name=MyWorld
 target7.showInterface=false
 target7.type=ClassTarget
-target7.width=110
+target7.width=80
 target7.x=0
 target7.y=0
-target8.height=50
-target8.name=player
-target8.showInterface=false
-target8.type=ClassTarget
-target8.width=80
-target8.x=0
-target8.y=0
-version=3.0.0
-width=1936
-world.lastInstantiated=MyWorld
-xPosition=0
-yPosition=0
-<<<<<<< HEAD
-=======
-=======
 version=3.0.0
 width=1225
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=207
-yPosition=68
-=======
-<<<<<<< HEAD
-xPosition=451
-yPosition=59
-=======
-<<<<<<< HEAD
-xPosition=236
-yPosition=185
-=======
-xPosition=313
-yPosition=314
->>>>>>> d1cc166df950e7647d9864c8e4221632e81202a2
->>>>>>> 47891ec011702e433278709d545130f1c0510faa
->>>>>>> 5a65a087cd56baab2c4e5d7c880bc925dd27c1c3
->>>>>>> 7f12a21c9e415cfecbcf97fbb30a583a8cf28e53
+xPosition=344
+yPosition=250
