@@ -1,21 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class key here.
+ * Write a description of class bat here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class key extends Actor
+public class bat extends Actor
 {
     /**
-     * Act - do whatever the key wants to do. This method is called whenever
+     * Act - do whatever the bat wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        
-        //主人公にぶつかられたとき自身を削除
-        
+        // Add your action code here.
     }    
 }

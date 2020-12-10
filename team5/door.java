@@ -14,9 +14,16 @@ public class door extends Actor
      */
     
     public void act() 
-    {
-        if(key.getkey == true){
+        {
+            
+        Actor actor = getOneIntersectingObject( Player.class );
+        if( actor != null ){//もし主人公が触れて、キーがある場合
+              
+        if(Player.getkey == true){
             //ゴール時の処理　別のステージに遷移orクリア画面表示
-        }
+            getWorld().removeObject( actor );
+            getWorld().showText( "STATUS:GOAL!!", 100, 50 );
+        }    
+            }  
     }    
 }

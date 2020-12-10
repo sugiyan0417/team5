@@ -9,6 +9,7 @@ import java.util.ArrayList;
  */
 public class MyWorld extends World
 {
+    static public int life=3;
 
     /**
      * Constructor for objects of class MyWorld.
@@ -23,8 +24,21 @@ public class MyWorld extends World
         super(1000, 750, 1);
         addObject( new key(), 100, 250 );
         addObject( new door(), 700, 169 );
+<<<<<<< HEAD
         addObject( new key(), 200, 680 );
         ///addObject(new Player(), 100, 680);
+=======
+        //addObject( new door(), 350, 680 );//テスト用
+        //addObject( new key(), 300, 680 );//テスト用
+        addObject( new slime(), 300, 680 );//テスト用
+        addObject(new slime(), 800, 580);
+        addObject(new bat(), 80, 100);
+        addObject(new Player(), 50, 680);
+        addObject(new life1(), 700, 800);
+        addObject(new life2(), 800, 800);
+        addObject(new life3(), 900, 800);
+        
+>>>>>>> (大根田：画像＆コード追加)
         
         for(int x=50;x<1000;x+=150){
         addObject( new block_seaground(), x, 830 );
@@ -38,6 +52,7 @@ public class MyWorld extends World
     for(int x=700;x<1500;x+=150){
         addObject( new block_seaground(), x, 300 );
     }
+<<<<<<< HEAD
          
         addObject(player, 500, 650);
         //players = getObjects(Player.class);
@@ -50,6 +65,15 @@ public class MyWorld extends World
        int x = player.getX();
        int y = player.getY();
        player.setLocation(x,y+4);
+=======
+    
+      
+
+    }
+    public void act(){
+        setActOrder(block_seaground.class,life1.class, life2.class, life3.class);
+      
+>>>>>>> (大根田：画像＆コード追加)
     }
 
 }
