@@ -1,23 +1,17 @@
 #Greenfoot project file
 class.MyWorld.image=back_sea.png
 class.Player.image=player(hanten).png
-<<<<<<< HEAD
-=======
 class.bat.image=bat.png
->>>>>>> (大根田：画像＆コード追加)
 class.block_cloud.image=block_cloud.png
 class.block_seaground.image=block_seaground.png
 class.door.image=door.png
 class.key.image=goal_key.png
-<<<<<<< HEAD
-=======
 class.life1.image=life.png
 class.life2.image=life.png
 class.life3.image=life.png
 class.slime.image=slime.png
->>>>>>> (大根田：画像＆コード追加)
 dependency1.from=MyWorld
-dependency1.to=Player
+dependency1.to=key
 dependency1.type=UsesDependency
 dependency10.from=door
 dependency10.to=Player
@@ -41,14 +35,10 @@ dependency16.from=slime
 dependency16.to=life1
 dependency16.type=UsesDependency
 dependency2.from=MyWorld
-dependency2.to=key
+dependency2.to=door
 dependency2.type=UsesDependency
 dependency3.from=MyWorld
-<<<<<<< HEAD
-dependency3.to=door
-=======
 dependency3.to=slime
->>>>>>> (大根田：画像＆コード追加)
 dependency3.type=UsesDependency
 dependency4.from=MyWorld
 dependency4.to=bat
@@ -70,19 +60,11 @@ dependency9.to=block_seaground
 dependency9.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-<<<<<<< HEAD
-editor.fx.0.x=552
-editor.fx.0.y=100
-height=935
-package.numDependencies=5
-package.numTargets=7
-=======
 editor.fx.0.x=860
 editor.fx.0.y=191
 height=1056
 package.numDependencies=16
 package.numTargets=12
->>>>>>> (大根田：画像＆コード追加)
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -166,13 +148,6 @@ target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
-<<<<<<< HEAD
-version=3.0.0
-width=1225
-world.lastInstantiated=MyWorld
-xPosition=344
-yPosition=250
-=======
 target8.height=50
 target8.name=life2
 target8.showInterface=false
@@ -192,4 +167,3 @@ width=1936
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
->>>>>>> (大根田：画像＆コード追加)
