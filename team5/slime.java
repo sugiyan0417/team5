@@ -14,7 +14,7 @@ public class slime extends Actor
      */
     public void act() 
     {
-        Actor actor = getOneIntersectingObject( Player.class );
+        Actor actor = getOneIntersectingObject( player.class );
         if( actor != null ){
             //getWorld().removeObject( actor ); // getWorld() は World オブジェクトの getter
             //Player衝突時はPlayerを赤く光らせるorほかの処理する

@@ -26,7 +26,7 @@ public class MyWorld extends World
         addObject( new slime(), 300, 680 );//テスト用
         addObject(new slime(), 800, 580);
         addObject(new bat(), 80, 100);
-        addObject(new Player(), 50, 680);
+        addObject(new player(), 50, 680);
         addObject(new life1(), 700, 800);
         addObject(new life2(), 800, 800);
         addObject(new life3(), 900, 800);

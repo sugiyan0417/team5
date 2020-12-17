@@ -16,7 +16,7 @@ public class door extends Actor
     public void act() 
         {
             
-        Actor actor = getOneIntersectingObject( Player.class );
+        Actor actor = getOneIntersectingObject( player.class );
         if( actor != null ){//もし主人公が触れて、キーがある場合
               
         if(Player.getkey == true){
