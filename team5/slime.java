@@ -6,20 +6,24 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class slime extends Actor
+public class Slime extends Actor
 {
     /**
      * Act - do whatever the slime wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public Slime(){
+        int[] scale = MyWorld.getImageScale();
+        getImage().scale(scale[0], scale[1]);
+    }
     public void act() 
     {
-        Actor actor = getOneIntersectingObject( player.class );
+        Actor actor = getOneIntersectingObject( Player.class );
         if( actor != null ){
             //getWorld().removeObject( actor ); // getWorld() は World オブジェクトの getter
             //Player衝突時はPlayerを赤く光らせるorほかの処理する
             
-            getWorld().showText( "STATUS:ITAI!", 100, 50 );
+            //getWorld().showText( "STATUS:ITAI!", 100, 50 );
             MyWorld.life--;//鍵取得フラグ
             /*ぶつかったときにライフが減る　しかし同時に何個も減るので、無敵時間を設定*/
             if(MyWorld.life==2)
